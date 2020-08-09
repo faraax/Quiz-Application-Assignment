@@ -1,0 +1,32 @@
+body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 49, 49);
+}
+ul li {
+    list-style: none;
+}
+.opt:hover {
+    background-color: cornflowerblue;
+    transition: 300ms;
+}
+.opt:active {
+    background-color: cornflowerblue;
+}
+.fieldset {
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    width: 750px;
+}
+.btn {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    display: inline-block;
+    width: 75px;
+}
